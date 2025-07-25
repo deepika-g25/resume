@@ -1,0 +1,57 @@
+
+        body {
+            font-family: Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9faf8;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .section-title {
+            color: #db348d;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        .contact-info {
+            margin-bottom: 1rem;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding: 1rem 0;
+            background-color:#db348d ;
+            color: white;
+        }
+        
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .card {
+            transition: all 0.3s ease;
+            border: none;
+            border-left: 4px solid #3489c2;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            border-left: 4px solid #747474;
+        }
+        .card-title {
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        .card-text {
+            color: #7f8c8d;
+        }
+    
